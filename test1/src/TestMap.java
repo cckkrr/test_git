@@ -21,7 +21,7 @@ public class TestMap {
         System.out.println("********************");
         System.out.println("map1.containsKey :" + map1.containsKey(101));
         String d = map1.put(101, "d");
-        System.out.println("d: " + d);
+
         for (Map.Entry<Integer, String> entry : map1.entrySet()){
             System.out.println(entry.toString());
         }
