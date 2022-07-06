@@ -36,6 +36,7 @@ public class TestMap {
         for (Map.Entry<Integer, String> entry : map1.entrySet()){
             System.out.println(entry.toString());
         }
+        System.out.println(666);
 
     }
 }
