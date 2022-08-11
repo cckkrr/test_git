@@ -15,7 +15,6 @@ public class NullableTest {
         newList.forEach(e -> {
             System.out.println(e);
         });
-
         Map<Integer, String> map;
         Map<Integer, String> map1 = new HashMap<>();
         map1.put(1, "a");
