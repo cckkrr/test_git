@@ -47,8 +47,8 @@ public class CRC8MAXINDemo {
     }
 
     public static void main(String[] args) {
-        System.out.println(11);
-        byte[] data = HexUtil.hexStringToBytes("a5000201");
+//        byte[] data = HexUtil.hexStringToBytes("a5000201");
+        byte[] data = CRC8MAXINDemo.hexStringToByteArray("a5000201");
         int crc = CRC8MAXINDemo.crc8(data); // 10进制：231
         String res = Integer.toHexString(crc); //10进制转成16进制：E7
         System.out.println(crc + ": " + res);
